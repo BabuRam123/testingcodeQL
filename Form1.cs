@@ -33,7 +33,7 @@ namespace WindowsFormsApplication1
 
             con.Open();
 
-            DataSet ds = new DataSet();
+            cmd.ExecuteNonQuery();
 
             MessageBox.Show("connect with sql server");
 
