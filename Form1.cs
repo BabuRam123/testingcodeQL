@@ -20,6 +20,8 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("hi");
+            string password = "hi";
+            MessageBox.Show(password);
         }
     }
 }
