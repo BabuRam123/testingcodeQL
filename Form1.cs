@@ -23,7 +23,7 @@ namespace WindowsFormsApplication1
             MessageBox.Show("hi");
             string password = "hi";
             MessageBox.Show(password);
-            String str = "server=MUNESH-PC;database=windowapp;UID=sa;password=123";
+            String str = "server=test-PC;database=windowapp;UID=sa;password=123";
 
             String query = "select * from data";
 
